@@ -8,8 +8,8 @@ export default function Hero() {
         <h1 className="text-4xl sm:text-5xl md:text-7xl lg:text-8xl xl:text-9xl mx-auto font-black">
           <span className="underline decoration-42 decoration-red">Front-End</span><br />Developer
         </h1>
-        <p className="text-xs md:text-sm xl:text-lg sm:w-3/4 lg:w-1/2 2xl:max-w-lg mt-16 lg:mt-24 xl:mt-32 mx-auto leading-2">
-          Lorem ipsum dolor sit amet, consectetuer adipiscing elit. In dapibus augue non sapien. Morbi leo mi, nonummy eget tristique non, rhoncus non leo. Aliquam id dolor. Fusce tellus. Nulla non arcu lacinia neque faucibus fringilla. Maecenas aliquet accumsan leo. Fusce consectetuer risus a nunc. Mauris suscipit, ligula sit amet pharetra semper, nibh ante cursus purus, vel sagittis velit mauris vel metus. Etiam bibendum elit eget erat.
+        <p className="text-sm md:text-base lg:text-3xl xl:text-4xl sm:w-3/4 lg:w-1/2 2xl:max-w-lg mt-16 lg:mt-24 xl:mt-32 mx-auto leading-2 font-black">
+          Turning Lines of Code into Seamless User Journeys
         </p>
       </div>
       <BackgroundT className="absolute bottom-0 left-0" />

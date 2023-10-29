@@ -23,7 +23,7 @@ const Card: React.FC<CardProps> = ({ post }) => {
   return (
     <article key={post.id} className="flex max-w-lg flex-col items-start justify-between mx-auto bg-white p-4 border-t-8 border-red rounded">
       <div className="flex items-center text-xs mx-auto">
-        <a href={post.link} target="_blank">
+        <a href={post.link} target="_blank" rel="noopener noreferrer">
           <img src={`${post.image}`} alt={post.title} className="rounded mx-auto" />
         </a>
       </div>

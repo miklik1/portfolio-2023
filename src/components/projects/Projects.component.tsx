@@ -41,10 +41,10 @@ export default function Projects() {
     <div id="Projects" className='relative bg-blue'>
       <div className=" py-16 lg:py-24">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
-          <div className="mx-auto max-w-2xl">
+          <div className="mx-auto">
             <h2 className="text-3xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl mx-auto font-black tracking-tight text-white ">PROJECTS</h2>
             <p className="text-xs md:text-sm xl:text-lg sm:w-3/4  my-8 lg:my-12 xl:my-16 mx-auto leading-2 text-white">
-              Learn how to grow your business with our expert advice.
+              Discover a collection of my projects, each representing my dedication to crafting functional and visually appealing web solutions. From responsive designs to user-friendly interfaces, explore how I bring creativity and technical expertise to every endeavor.
             </p>
           </div>
           <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 pt-10 lg:mx-0 lg:max-w-none lg:grid-cols-3">
