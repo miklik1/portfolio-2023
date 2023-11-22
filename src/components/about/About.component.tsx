@@ -17,7 +17,11 @@ export default function About() {
             </p>
           </div>
           <div className='flex justify-center gap-x-8'>
-            <a href="{resumeSvg}" target="_blank" rel="noopener noreferrer">
+            <a
+              href="/CV_2023.pdf"  // Replace with the actual path to your resume PDF file
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <img src={resumeSvg} alt="Resume" className="transform scale-125 w-12 h-12" />
             </a>
 
