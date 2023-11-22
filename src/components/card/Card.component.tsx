@@ -38,9 +38,9 @@ const Card: React.FC<CardProps> = ({ post }) => {
             <i className="devicon-github-original"></i>
           </a>
         </div>
-        <p className="mt-3 line-clamp-5 text-xs leading-4 text-gray-600">{post.description}</p>
+        <p className="mt-3 text-left line-clamp-5 text-xs leading-4 text-gray-600">{post.description}</p>
       </div>
-      <div className="relative mt-4 flex items-center gap-x-4">
+      <div className="relative mt-4 flex items-center gap-x-4 gap-y-2 flex-wrap">
         {post.tech.map((badge) => (
           <Badge key={badge.id} badge={badge} />
         ))}

@@ -6,33 +6,33 @@ const posts = [
     title: 'Crwn Clothing',
     href: '#',
     description:
-      'Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.',
+      'Explore a scalable e-commerce platform developed with React, Redux, and Typescript, offering a seamless user experience. Robust features and a secure authentication system ensure adaptability to evolving business needs.',
     image: '/images/sX2aF0VgDnN5P8v1.png',
     link: "https://crwn-clothing-miklik1.vercel.app/",
     github: "https://github.com/miklik1/crwn-clothing",
-    tech: [{ id: 1, name: "React", icon: "devicon-react-original" }]
+    tech: [{ id: 1, name: "React", icon: "devicon-react-original" }, { id: 2, name: "Redux", icon: "devicon-redux-original" }, { id: 3, name: "TypeScript", icon: "devicon-typescript-plain" }, { id: 4, name: "Firebase", icon: "devicon-firebase-plain" }]
   },
   {
     id: 2,
     title: 'Coffee Connoisseur',
     href: '#',
     description:
-      'Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.',
+      'Navigate a dynamic coffee shop browsing app constructed with Next.js, employing diverse rendering techniques for optimal performance. Integrated with the Airtable API, this app not only provides location-based results but also allows users to engage through a unique upvoting system, adding a social layer to the coffee shop discovery experience.',
     image: '/images/QfWvnu8aN9gUAPrV.png',
-    link: "https://discover-coffee-shops-seven.vercel.app",
+    link: "https://discover-coffee-shops-seven.vercel.app/",
     github: "https://github.com/miklik1/discover-coffee-shops",
-    tech: [{ id: 1, name: "React", icon: "devicon-react-original" }, { id: 2, name: "Next.js", icon: "devicon-nextjs-line" }]
+    tech: [{ id: 1, name: "Next.js", icon: "devicon-nextjs-line" }]
   },
   {
     id: 3,
     title: 'Face Recognition',
     href: '#',
     description:
-      'Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.',
-    image: '/images/QfWvnu8aN9gUAPrV.png',
-    link: "https://face-recognition-six.vercel.app",
+      'Dive into a face recognition application crafted with React, utilizing the Clarifai API for accurate face detection. A server built with Node.js, Express, and PostgreSQL enables user registration and login while securely managing and tracking user data.',
+    image: '/images/NmjfONDvnd.jpg',
+    link: "https://face-recognition-six.vercel.app/",
     github: "https://github.com/miklik1/face-recognition",
-    tech: [{ id: 1, name: "React", icon: "devicon-react-original" }]
+    tech: [{ id: 1, name: "React", icon: "devicon-react-original" }, { id: 2, name: "Node.js", icon: "devicon-nodejs-plain" }, { id: 3, name: "Express", icon: "devicon-express-original" }, { id: 4, name: "PostreSQL", icon: "devicon-postgresql-plain" }]
   },
 ]
 

@@ -1,14 +1,14 @@
 import { ReactComponent as BG_bottom } from '../../assets/bg_bottom.svg';
-import github from '../../assets/icons/github.png';
-import linkedin from '../../assets/icons/linkedin.png';
-import resume from '../../assets/icons/resume.png';
-import instagram from '../../assets/icons/instagram.png';
+import githubSvg from '../../assets/icons/github.svg';
+import linkedinSvg from '../../assets/icons/linkedin.svg';
+import resumeSvg from '../../assets/icons/resume.svg';
+import instagramSvg from '../../assets/icons/instagram.svg';
 
 export default function About() {
   return (
     <div id="About me" className="relative">
       <BG_bottom className="absolute top-0 left-0" />
-      <div className=" pt-16 pb-6 lg:pt-24 lg:pb-12">
+      <div className=" pt-16 pb-6 lg:pt-24 lg:pb-12 xl:pt-40">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="mx-auto max-w-3xl">
             <h2 className="text-3xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl mx-auto font-black tracking-tight text-blue ">ABOUT ME</h2>
@@ -17,20 +17,20 @@ export default function About() {
             </p>
           </div>
           <div className='flex justify-center gap-x-8'>
-            <a href="{resume}" target="_blank" rel="noopener noreferrer">
-              <img src={resume} alt="Resume" className="transform scale-125" />
+            <a href="{resumeSvg}" target="_blank" rel="noopener noreferrer">
+              <img src={resumeSvg} alt="Resume" className="transform scale-125 w-12 h-12" />
             </a>
 
             <a href="https://www.linkedin.com/in/martin-mikl%C3%ADk-810479162/" target="_blank" rel="noopener noreferrer">
-              <img src={linkedin} alt="LinkedIn" className="transform scale-125" />
+              <img src={linkedinSvg} alt="LinkedIn" className="transform scale-125 w-12 h-12" />
             </a>
 
             <a href="https://github.com/miklik1" target="_blank" rel="noopener noreferrer">
-              <img src={github} alt="GitHub" className="transform scale-125" />
+              <img src={githubSvg} alt="GitHub" className="transform scale-125 w-12 h-12" />
             </a>
 
             <a href="https://www.instagram.com/martin_miklik/" target="_blank" rel="noopener noreferrer">
-              <img src={instagram} alt="Instagram" className="transform scale-125" />
+              <img src={instagramSvg} alt="Instagram" className="transform scale-125 w-12 h-12" />
             </a>
           </div>
         </div>
